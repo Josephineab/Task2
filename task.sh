@@ -1,7 +1,7 @@
 # vi /opt/scripts/memory-alert.sh
 
 #!/bin/sh
-
+task(){
   echo "Top Memory Consuming Process Using top command"
 
   echo "----------------------------------------------------------"
@@ -11,3 +11,4 @@
   echo ""
 
   echo "---------------------------------------------------------"
+}
